@@ -1,0 +1,878 @@
+// @font-face {
+    //   font-family: 'Inter';
+    //   src: url('../fonts/Inter.ttf');
+    // }
+    
+    // @import 'variables';
+    // @import 'scaffolding';
+    
+    // .re-homepage-container{
+      
+    // }
+    
+    // #anPageName { 
+    
+    // }
+    
+    // .re-homepage { 
+    
+    // 	&__homepage { 
+    //   //     align-items: center;
+    //   //   background-color: var(--white);
+    //   //   border: 1px none;
+    //   //   display: flex;
+    //   //   flex-direction: column;
+    //   //   height: 8332px;
+    //   //   width: 1440px;
+    //   //   /* //styleName: Web/Small; */
+    //   // font-family: Inter;
+    //   // font-size: 14px;
+    //   // font-weight: 400;
+    //   // line-height: 20px;
+    //   // letter-spacing: 0em;
+    //   // text-align: left;
+    
+            
+    
+    
+    
+    
+    // 				.item { 
+    
+    // 					a { 
+    
+    // 					}
+    // 				}
+    
+    // 				.frame { 
+    
+    // 					.send-message { 
+    
+    // 					}
+    // 				}
+    // 		}
+    
+    // 		.carousel-container { 
+    
+    // 			.container-1 { 
+    
+    // 				.frame-42 { 
+    
+    // 					.mySlides { 
+    
+    // 						.not-just-a-crm-your { 
+    
+    // 							.span { 
+    
+    // 								br { 
+    
+    // 								}
+    // 							}
+    
+    // 							.span1 { 
+    
+    // 								br { 
+    
+    // 								}
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.row { 
+    
+    // 						.col-sm { 
+    
+    // 							.btn { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.frame-1-1 { 
+    
+    // 					.ellipse { 
+    
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.rectangle-65 { 
+    
+    // 			}
+    
+    // 			.mask-group-1 { 
+    
+    // 			}
+    
+    // 			.frame-948 { 
+    
+    // 				.hover-on { 
+    
+    // 				}
+    
+    // 				.group-1013 { 
+    
+    // 					.ellipse-container { 
+    
+    // 						.ellipse-134 { 
+    
+    // 						}
+    
+    // 						.ellipse-135-1 { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.to-know-more { 
+    
+    // 				}
+    // 			}
+    
+    // 			.frame-96 { 
+    
+    // 				.how-we-work { 
+    
+    // 				}
+    
+    // 				.fully-optimized-to-s { 
+    
+    // 				}
+    // 			}
+    
+    // 			.frame-948-1 { 
+    
+    // 				.marketing { 
+    
+    // 				}
+    // 			}
+    
+    // 			.frame-949 { 
+    
+    // 				.place { 
+    
+    // 				}
+    // 			}
+    
+    // 			.frame-950 { 
+    
+    // 				.service { 
+    
+    // 				}
+    // 			}
+    
+    // 			.vector-77 { 
+    
+    // 			}
+    
+    // 			.vector-78 { 
+    
+    // 			}
+    
+    // 			.vector-76-stroke { 
+    
+    // 			}
+    
+    // 			.vector-79 { 
+    
+    // 			}
+    
+    // 			.group-1011 { 
+    
+    // 				.group-container { 
+    
+    // 					.group-1007 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.egg-icon-1 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.egg-icon-2 { 
+    
+    // 					.overlap-group { 
+    
+    // 						.ellipse-135 { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.group-container-1 { 
+    
+    // 					.egg-icon-3 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.egg-icon-4 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.egg-icon-5 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.egg-icon-6 { 
+    
+    // 						.overlap-group { 
+    
+    // 							.ellipse-135 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.egg-icon-7 { 
+    
+    // 					.overlap-group { 
+    
+    // 						.ellipse-135 { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.egg-icon-8 { 
+    
+    // 					.overlap-group { 
+    
+    // 						.ellipse-135 { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.egg-icon-9 { 
+    
+    // 					.overlap-group { 
+    
+    // 						.ellipse-135 { 
+    
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.ellipse-137 { 
+    
+    // 			}
+    
+    // 			.group-1012 { 
+    
+    // 				.overlap-group10 { 
+    
+    // 					.image-21 { 
+    
+    // 					}
+    
+    // 					.vector-82 { 
+    
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.ellipse-136 { 
+    
+    // 			}
+    
+    // 			.image-20 { 
+    
+    // 			}
+    
+    // 			.ellipse-138 { 
+    
+    // 			}
+    
+    // 			.image-22 { 
+    
+    // 			}
+    
+    // 			.ellipse-140 { 
+    
+    // 			}
+    
+    // 			.image-24 { 
+    
+    // 			}
+    
+    // 			.ellipse-139 { 
+    
+    // 			}
+    
+    // 			.image-23 { 
+    
+    // 			}
+    
+    // 			.ellipse-142 { 
+    
+    // 			}
+    
+    // 			.image-26 { 
+    
+    // 			}
+    
+    // 			.ellipse-141 { 
+    
+    // 			}
+    
+    // 			.icon-search { 
+    
+    // 			}
+    
+    // 			.hover-egg { 
+    
+    // 				.project-details-8 { 
+    
+    // 				}
+    
+    // 				.the-sales-team-respo-1 { 
+    
+    // 				}
+    // 			}
+    // 		}
+    
+    // 		.frame-43 { 
+    
+    // 			.frame-4 { 
+    
+    // 				.a-fully { 
+    
+    // 					.span { 
+    
+    // 					}
+    
+    // 					.span1 { 
+    
+    // 					}
+    // 				}
+    
+    // 				.frame-2 { 
+    
+    // 					.frame-1 { 
+    
+    // 						.arrow-right { 
+    
+    // 							.subtract { 
+    
+    // 							}
+    // 						}
+    
+    // 						.building-an-engaging-digital-presence { 
+    
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.group { 
+    
+    // 				.overlap-group1 { 
+    
+    // 					.mask-group { 
+    
+    // 					}
+    
+    // 					.overlap-group-1 { 
+    
+    // 						.frame-105 { 
+    
+    // 							.frame-85 { 
+    
+    // 								.name { 
+    
+    // 								}
+    // 							}
+    
+    // 							.frame-938 { 
+    
+    // 								.rectangle-955 { 
+    
+    // 								}
+    // 							}
+    
+    // 							.mask-group-2 { 
+    
+    // 							}
+    
+    // 							.frame-104 { 
+    
+    // 								.rectangle-94 { 
+    
+    // 								}
+    // 							}
+    
+    // 							.rectangle-951 { 
+    
+    // 							}
+    // 						}
+    
+    // 						.group-937 { 
+    
+    // 						}
+    // 					}
+    
+    // 					.frame-107 { 
+    
+    // 						.group-86 { 
+    
+    // 						}
+    
+    // 						.frame-6-1 { 
+    
+    // 							.rectangle-958 { 
+    
+    // 							}
+    
+    // 							.group-939 { 
+    
+    // 								.icon-search-1 { 
+    
+    // 								}
+    // 							}
+    
+    // 							.isolation_-mode { 
+    
+    // 							}
+    // 						}
+    
+    // 						.frame-943 { 
+    
+    // 							.group-942 { 
+    
+    // 								.group-940 { 
+    
+    // 									.rectangle-958-1 { 
+    
+    // 									}
+    
+    // 									.rectangle-959 { 
+    
+    // 									}
+    
+    // 									.rectangle-960 { 
+    
+    // 									}
+    
+    // 									.rectangle-961 { 
+    
+    // 									}
+    // 								}
+    
+    // 								.group-941 { 
+    
+    // 									.union-1 { 
+    
+    // 									}
+    // 								}
+    // 							}
+    
+    // 							.frame-943-1 { 
+    
+    // 								.frame-94 { 
+    
+    // 									.union { 
+    
+    // 									}
+    // 								}
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.frame-105-1 { 
+    
+    // 						.icon-pencil { 
+    
+    // 						}
+    
+    // 						.icon-upload_arrow { 
+    
+    // 						}
+    
+    // 						.icon-eye { 
+    
+    // 						}
+    
+    // 						.upload-3 { 
+    
+    // 						}
+    // 					}
+    
+    // 					.frame-17 { 
+    
+    // 					}
+    // 				}
+    // 			}
+    // 		}
+    
+    // 		.frame-9 { 
+    
+    // 			.group { 
+    
+    // 				.overlap-group-2 { 
+    
+    // 					.mask-group { 
+    
+    // 					}
+    
+    // 					.frame-105-2 { 
+    
+    // 						.icon-graph { 
+    
+    // 						}
+    
+    // 						.icon-notifications { 
+    
+    // 						}
+    
+    // 						.plane { 
+    
+    // 						}
+    // 					}
+    
+    // 					.frame-106-1 { 
+    
+    // 						.email-campaign { 
+    
+    // 						}
+    
+    // 						.frame-85-1 { 
+    
+    // 							.name-2 { 
+    
+    // 							}
+    // 						}
+    
+    // 						.frame-104 { 
+    
+    // 							.rectangle-94-1 { 
+    
+    // 							}
+    
+    // 							.rectangle-950 { 
+    
+    // 							}
+    // 						}
+    
+    // 						.frame-9-1 { 
+    
+    // 							.send-email { 
+    
+    // 							}
+    // 						}
+    // 					}
+    
+    // 					.frame-108 { 
+    
+    // 						.statistics-2 { 
+    
+    // 						}
+    
+    // 						.vector { 
+    
+    // 						}
+    // 					}
+    
+    // 					.frame-107-1 { 
+    
+    // 						.marketing-plan { 
+    
+    // 						}
+    
+    // 						.frame-106-2 { 
+    
+    // 							.group-104 { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.frame-4 { 
+    
+    // 				.a-fully { 
+    
+    // 					.span { 
+    
+    // 					}
+    
+    // 					.span1 { 
+    
+    // 					}
+    // 				}
+    
+    // 				.frame-2 { 
+    
+    // 					.frame-1 { 
+    
+    // 						.arrow-right { 
+    
+    // 							.subtract { 
+    
+    // 							}
+    // 						}
+    
+    // 						.engaging-home-buyers { 
+    
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    // 		}
+    
+    // 		.overlap-group12 { 
+    
+    // 			.frame-4-1 { 
+    
+    // 				.a-robust-business-intelligence-platform { 
+    
+    // 				}
+    
+    // 				.frame-3-3 { 
+    
+    // 					.connecting-all-the-d { 
+    
+    // 					}
+    
+    // 					.arrow-down { 
+    
+    // 					}
+    
+    // 					.ing-the { 
+    
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.mask-group-4 { 
+    
+    // 			}
+    // 		}
+    
+    // 		.overlap-group13 { 
+    
+    // 			.rectangle-36 { 
+    
+    // 			}
+    
+    // 			.rectangle-37 { 
+    
+    // 			}
+    
+    // 			.contact-us-section { 
+    
+    // 				.frame-9-2 { 
+    
+    // 					.contact-us { 
+    
+    // 					}
+    
+    // 					.feel-free-to-send-us { 
+    
+    // 					}
+    
+    // 					.frame-37 { 
+    
+    // 						.frame-3 { 
+    
+    // 							.icon-call { 
+    
+    // 							}
+    
+    // 							.phone { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.frame-3-4 { 
+    
+    // 					.d-flex { 
+    
+    // 						.frame-5 { 
+    
+    // 						}
+    
+    // 						.btn { 
+    
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.footer { 
+    
+    // 				.footer-element-1 { 
+    
+    // 					.px-2 { 
+    
+    // 						a { 
+    
+    // 						}
+    // 					}
+    
+    // 					span { 
+    
+    // 						a { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.footer-element-2 { 
+    
+    // 					a { 
+    
+    // 					}
+    // 				}
+    
+    // 				.footer-element-3 { 
+    
+    // 					.ft-social { 
+    
+    // 						.ft-social-list { 
+    
+    // 							li { 
+    
+    // 								a { 
+    
+    // 									.fab { 
+    
+    // 									}
+    // 								}
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.group-97 { 
+    
+    // 				.a-perfect-platform-for-you { 
+    
+    // 				}
+    
+    // 				.frame-46 { 
+    
+    // 					.frame-6 { 
+    
+    // 						.group-6 { 
+    
+    // 							.overlap-group-3 { 
+    
+    // 								.number-1 { 
+    
+    // 								}
+    // 							}
+    // 						}
+    
+    // 						.frame-2 { 
+    
+    // 							.branded-for-you { 
+    
+    // 							}
+    
+    // 							.your-audience-will-o { 
+    
+    // 							}
+    // 						}
+    // 					}
+    // 				}
+    // 			}
+    
+    // 			.about-us-section { 
+    
+    // 				.rectangle-66 { 
+    
+    // 				}
+    
+    // 				.mask-group-5 { 
+    
+    // 				}
+    
+    // 				.frame-47 { 
+    
+    // 					.about-us { 
+    
+    // 					}
+    
+    // 					.maze-began-with-the { 
+    
+    // 						br { 
+    
+    // 						}
+    // 					}
+    // 				}
+    
+    // 				.mask-group-6 { 
+    
+    // 				}
+    // 		}
+    // 	}
+    //   &__nav-bar { 
+    //     align-items: center;
+    //     background-color: var(--white);
+    //     border-radius: 8px;
+    //     box-shadow: 0px 8px 24px #2b44e70f;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding: 16px 80px;
+    //     position: relative;
+    //     width: 1440px;
+    //   }
+    
+    //   &__nav-bar-logo{
+    //     height: 28px;
+    //     min-width: 77.45px;
+    //     position: relative;
+    //   }
+    //   &__nav-bar-list{
+    //     align-items: center;
+    //     display: flex;
+    //     gap: 32px;
+    //     position: relative;
+    //     width: fit-content;
+    //   }
+    //   &__nav-bar-list-item{
+    //     padding: 0.5vw;
+    //   }
+    //   &__nav-bar-list-frame{
+    //     padding-right: 1vw;
+    //   }
+    // }
+    

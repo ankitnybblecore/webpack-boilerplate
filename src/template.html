@@ -1,14 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+  <meta name="twitter:card" content="photo" />
 
-  <body>
-    <div id="root"></div>
+  <title>HERE</title>
+</head>
+
+<body>
+
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="001" />
+    <div class="re-homepage-static container-center-horizontal">
+      <div class="re-homepage-static__homepage screen">
+
+        <!-- Navigation Bar  -->
+        <nav class="re-homepage-static__nav-bar navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand re-homepage-static__nav-bar-logo" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="re-homepage-static__nav-bar-list collapse navbar-collapse justify-content-end p-2"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="re-homepage-static__nav-bar-list-item nav-item active">
+                <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="re-homepage-static__nav-bar-list-item nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="re-homepage-static__nav-bar-list-item nav-item dropdown">
+                <button class="btn-primary btn">Send Message</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navigation Bar  -->
+
+        <!-- Carousel  -->
+        <div class="re-homepage-static__carousel-container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="re-homepage-static__inner-carousel carousel-inner">
+              <div class="re-homepage-static__item-carousel carousel-item active">
+                <h1 class="not-just-a-crm-your webh1">
+                  <span class="re-homepage-static__span webh1">Not just a CRM, your<br /></span><span class="re-homepage-static__span1 webh1">digital
+                    partner<br /></span><span class="span webh1">for new home sales.</span>
+                </h1>
+                <div class="re-homepage-static__buttons-container row justify-content-center">
+                  <div class="col-sm">
+                    <button class="btn btn-primary btn-lg text-nowrap">Explore product</button>
+                  </div>
+                  <div class="col-sm">
+                    <button class="btn btn-outline-primary btn-lg">Book Demo</button>
+                  </div>
+                </div>
+              </div>
+              <div class="re-homepage-static__item-carousel carousel-item">
+                <h1 class="not-just-a-crm-your webh1 slide-3">
+                  <span class="re-homepage-static__span webh1">Not just an eMarketing & Lead Management,<br /></span><span class="re-homepage-static__span1 webh1">an enabler to convert<br /></span><span class="span webh1"> leads into sales</span>
+                </h1>
+                <div class="re-homepage-static__buttons-container row justify-content-center">
+                  <div class="col-sm">
+                    <button class="btn btn-primary btn-lg text-nowrap">Explore product</button>
+                  </div>
+                  <div class="col-sm">
+                    <button class="btn btn-outline-primary btn-lg">Book Demo</button>
+                  </div>
+                </div>
+              </div>
+              <div class="re-homepage-static__item-carousel carousel-item">
+                <h1 class="not-just-a-crm-your webh1 slide-3">
+                  <span class="re-homepage-static__span webh1">Not just an eMarketing & Lead Management,<br /></span><span class="re-homepage-static__span1 webh1">an enabler to convert<br /></span><span class="span webh1"> leads into sales</span>
+                </h1>
+                <div class="re-homepage-static__buttons-container row justify-content-center">
+                  <div class="col-sm">
+                    <button class="btn btn-primary btn-lg text-nowrap">Explore product</button>
+                  </div>
+                  <div class="col-sm">
+                    <button class="btn btn-outline-primary btn-lg">Book Demo</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel  -->
+
+        <!-- Process  -->
+        <div class="re-homepage-static__process-parent-container"> 
+        <div class="re-homepage-static__process-container">
+          <div class="re-homepage-static__process-container-inner" id="frame-96">
+            <div class="how-we-work webh2">How we work!</div>
+            <p class="fully-optimized-to-s webregular">
+              Fully Optimized to support real estate builders and brokersfor fast growing business. Take your prospect
+              to closureon a single platform.
+            </p>
+          </div>
+          <!-- <div class="frame-948 webregular">
+            <div class="hover-on">Hover on</div>
+            <div class="group-1013">
+              <div class="ellipse-container">
+                <div class="ellipse-134"></div>
+                <div class="ellipse-135-1"></div>
+              </div>
+            </div>
+            <div class="to-know-more">to know more</div>
+          </div> -->
+          <!-- <div class="frame-96" id="frame-96">
+            <div class="how-we-work webh2">How we work!</div>
+            <p class="fully-optimized-to-s webregular">
+              Fully Optimized to support real estate builders and brokersfor fast growing business. Take your prospect
+              to closureon a single platform.
+            </p>
+          </div> -->
+        </div>
+      </div>
+      </div>
+    </div>
   </body>
+</body>
+
+
 </html>

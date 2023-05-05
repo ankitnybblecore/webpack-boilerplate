@@ -1,0 +1,112 @@
+.re-homepage-static {
+    // font-family: Inter;
+    // font-size: 14px;
+    // font-weight: 700;
+    // line-height: 72px;
+    // letter-spacing: 0em;
+    // text-align: left;
+    max-width: 1440px;
+    margin: auto;
+    height: 700px;
+
+    &__nav-bar {
+        border-radius: 8px;
+        align-items: center;
+        background-color: $white;
+        border-radius: 8px;
+        box-shadow: 0px 8px 24px #2b44e70f;
+        padding: 16px 80px;
+        position: relative;
+        max-width: 1440px;
+    }
+
+    &__nav-bar-logo {
+        height: 28px;
+        min-width: 77.45px;
+        position: relative;
+    }
+
+    &__nav-bar-list {
+        ul {
+            gap: 2vw;
+            align-items: end;
+        }
+    }
+
+    &__carousel-container {
+        height: 700px;
+        width: 100%;
+        .carousel-indicators{
+            bottom: 19%;
+        }
+
+    }
+
+    &__inner-carousel {
+        .active {
+            background-image: url(../../public/images/mask-group-2.png);
+            background-size: cover;
+            height: 743.3px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &__process-container {
+        background-image: url(../../public/images/mask-group.png);
+        width: 85%;
+        // background-color: #D9D9D9        ;/
+        background: radial-gradient(50% 50% at 50% 50%, rgb(43, 231, 174.6) 0%, rgb(25.5, 56.02, 255) 100%);
+        border-radius: 40px;
+        height: 1194px;
+        left: 8%;
+        position: absolute;
+        top: 768px;
+    }
+
+    &__process-container-inner {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        left: 403px;
+        position: absolute;
+        top: 848px;
+        width: 634px;
+    }
+
+    &__buttons-container {}
+
+    &__span {
+        color: $black;
+    }
+
+    &__span1 {
+        color: $red;
+    }
+
+    &__buttons-container {
+        margin-top: 10px;
+    }
+
+    &__item-carousel {
+        margin-bottom: 30px;
+
+        h1 {
+            font-weight: 700px !important;
+        }
+    }
+
+    // &__nav-bar-list-item {
+    //     color: #2d2d2d;
+    //     font-weight: 500;
+    //     line-height: 3vw;
+    //     position: relative;
+    //     text-align: center;
+    //     white-space: nowrap;
+    //     width: fit-content;
+    // }
+}
